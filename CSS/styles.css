@@ -1,0 +1,78 @@
+:root{
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --logo-color:#4D5AE5;
+    --primary-bg-color: #FFFFFF;
+}
+
+
+/*Studio*/
+body {
+    background:var(--primary-bg-color);
+    color:var(--primary-text-color);
+    font-family: Roboto, Times, serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*Header*/
+.logo {
+    color:var(--logo-color) ;
+    font: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+.site-nav .link{
+    color:var(--title-text-color);
+    font: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.contacts .contacts_link {
+    color:var(--primary-text-color);
+    font: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* Hero*/
+.hero{
+    color: var(--primary-bg-color);
+    background-color:#2E2F42;
+}
+.button{
+  color: #FFFFFF;
+  background-color: #4D5AE5;;
+}
+/*sections*/
+.section-title{
+    color:var(--title-text-color);
+}
+/*footer*/
+.footer{
+    background-color: #2E2F42;
+}
+.footer-logo {
+    color:var(--logo-color) ;
+}
+.footer-text{
+    color: #E7E9FC;
+}
+
+
+
+/*Portfolio*/
+/*Buttons*/
+button{
+    color: #4D5AE5;
+}
+
+
